@@ -23,13 +23,10 @@ We used NERsuite as our machine learning system trained on Gellus corpus and sup
 * [JNPBA-CL](http://bionlp-www.utu.fi/cell-lines/JNLPBA-CL_corpus/)
 * [CellFinder-CL](http://bionlp-www.utu.fi/cell-lines/CellFinder-CL_corpus/)
   
-### Tagged and normalized cell line name documents
-We tagged and normalized cell line names in roughly 24M documents, including both PubMed abstracts and PMC-Open Access (PMCOA) full texts. About 1M documents contain at least one cell line name. We provided the documents and their annotations in standoff format.
+### Tagged and normalized cell line name documents (updated 20 September 2018)
+Originally we provided text documents and cell line names annotation in standoff format in roughly 24M documents, including both PubMed abstracts and PMC-Open Access (PMCOA) full texts. Since then, there are newly published articles available from those two literature database, currently >27M PubMed abstracts and >2M PMCOA full texts. We thus removed this large-scale annotations and linked to our weekly updated named-entity recognition project, where the cell line annotations and text documents are provided in TEES-xml format.
 
-* [Tagged PubMed document](http://bionlp-www.utu.fi/cell-lines/large_scale_PubMed_text/)
-* [Tagged PubMed annotation](http://bionlp-www.utu.fi/cell-lines/large_scale_PubMed_annotation/)
-* [Tagged PMCOA document](http://bionlp-www.utu.fi/cell-lines/large_scale_PMCOA_text/)
-* [Tagged PMCOA annotation](http://bionlp-www.utu.fi/cell-lines/large_scale_PMCOA_annotation/)
+* [Syntactic parses and named entity recognition for PubMed abstracts and PubMed Central full documents] (https://turkunlp.github.io/pubmed_parses/)
 
 ### Authors and Contributors
 * Suwisa Kaewphan, University of Turku
