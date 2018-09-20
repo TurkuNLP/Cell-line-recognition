@@ -338,15 +338,6 @@ Small Device Styles
     font-size:14px;
   }
 
-  #downloads {
-    display: none;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
   #project_title {
   font-size: 32px;
   }
