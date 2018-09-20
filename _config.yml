@@ -1,0 +1,8 @@
+title: Cell line recognition
+description: Cell line recognition and normalization system, supporting corpora and tagged documents.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
