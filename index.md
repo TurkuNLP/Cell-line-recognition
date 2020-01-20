@@ -1,10 +1,10 @@
 ### Welcome to University of Turku cell line name recognition and normalization
-The project is a result of collaboration of University of Turku, Gent University and Textimi. The aim is to create corpora that is suitable for training and evaluating machine learning systems to recognize and normalize established cell line names from text. 
+The project is a result of collaboration of University of Turku, Gent University and Textimi. The aim is to create corpora that is suitable for training and evaluating machine learning systems to recognize and normalize established cell line names from text. The full detail is discussed in this [article]. (https://academic.oup.com/bioinformatics/article/32/2/276/1744404) 
 
 ### Gellus and CLL Corpora
 We created two manually annotated corpora, Gellus and CLL. Gellus is suitable for the training of any machine learning systems in recognizing cell line name mentions while CLL is for evaluating the systems in recognizing the Cellosaurus cell line names.
 
-* [GELLUS](http://bionlp-www.utu.fi/cell-lines/Gellus_corpus.tar.gz)
+* [Gellus](http://bionlp-www.utu.fi/cell-lines/Gellus_corpus.tar.gz)
 * [CLL](http://bionlp-www.utu.fi/cell-lines/CLL_corpus.tar.gz)
 
 ### Cell line names dictionary
