@@ -20,18 +20,13 @@ We used NERsuite as our machine learning system trained on Gellus corpus and sup
 
 * [NERsuite model](http://bionlp-www.utu.fi/cell-lines/NERsuite_Gellus_Cellosaurus.m)
 * [dictionary](http://bionlp-www.utu.fi/cell-lines/cell_line_dictionary.db): To use this dictionary with NERsuite, you can skip the compiling step (command: nersuite_dic_compiler) and use it directly with command nersuite_dic_tagger.
-* [JNPBA-CL](http://bionlp-www.utu.fi/cell-lines/JNLPBA-CL_corpus/)
+* [JNPBA-CL](http://bionlp-www.utu.fi/cell-lines/JNLPBA-CL_corpus.tar.gz)
 * [CellFinder-CL](http://bionlp-www.utu.fi/cell-lines/CellFinder-CL_corpus.tar.gz)
   
 ### Tagged and normalized cell line name documents (updated 20 September 2018)
 Originally we provided text documents and cell line names annotation in standoff format in roughly 24M documents, including both PubMed abstracts and PMC-Open Access (PMCOA) full texts. 
 
-* [Tagged PubMed document](http://bionlp-www.utu.fi/cell-lines/large_scale_PubMed_text/)
-* [Tagged PubMed annotation](http://bionlp-www.utu.fi/cell-lines/large_scale_PubMed_annotation/)
-* [Tagged PMCOA document](http://bionlp-www.utu.fi/cell-lines/large_scale_PMCOA_text/)
-* [Tagged PMCOA annotation](http://bionlp-www.utu.fi/cell-lines/large_scale_PMCOA_annotation/)
-
-Since then, there are newly published articles available from those two literature database, currently >27M PubMed abstracts and >2M PMCOA full texts. We added following link to our weekly-update large-scale named entity recognition project, where the cell line annotations and text documents are provided in TEES-xml format.
+Since then, there are newly published articles available from those two literature database, currently >27M PubMed abstracts and >2M PMCOA full texts. We instead provided following link to our weekly-update large-scale named entity recognition project, where the cell line annotations and text documents are provided in TEES-xml format.
 
 * [Syntactic parses and named entity recognition for PubMed abstracts and PubMed Central full documents](https://turkunlp.github.io/pubmed_parses/)
 
